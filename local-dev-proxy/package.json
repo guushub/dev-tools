@@ -1,0 +1,17 @@
+{
+  "name": "local-dev-proxy",
+  "version": "1.0.0",
+  "description": "Proxy any url to avoid CORS issues in dev-time",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "promise": "^8.0.1",
+    "request": "^2.85.0"
+  }
+}
